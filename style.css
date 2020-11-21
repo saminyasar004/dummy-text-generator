@@ -1,0 +1,61 @@
+/* basic styles */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  cursor: default;
+  overflow-x: hidden;
+  font-family: "Helvetica nue", sans-serif;
+}
+
+.input {
+  width: 70%;
+  margin: 1% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number-input {
+  width: 20%;
+  padding: 1rem auto;
+  margin: auto 2%;
+  outline: none;
+  border: 0.1rem solid #ddd;
+}
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  color: #fff;
+  background: rebeccapurple;
+  outline: none;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.output {
+  width: 60%;
+  margin: 1% auto;
+  display: block;
+  text-align: left;
+}
+
+.output-para {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  margin: 2% auto;
+}
